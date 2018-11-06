@@ -3,11 +3,238 @@
 * {
   margin: 0;
   padding: 0;
-  box-border: border-box;
-  border: 1px solid rgb(200,200,200);
+  box-sizing: border-box;
+  /* border: 1px solid rgb(200,200,200); */
+}
+
+/* text colour hex numbers
+ #182b36 blue
+ #eab100 yellow */
+
+html {
+  font-size: 12px;
+}
+
+header  {
+  background-image: URL("assets/gilles-lambert-249996.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+header h1 {
+  font-size: 8rem;
+  text-align: center;
+  padding: 15% 10% 0% 10%;
+  font-family: 'macho', sans-serif;
+}
+
+header h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header span {
+  color: #eab100
+}
+
+footer {
+  background-color: #182b36
+}
+
+.squares div {
+  padding: 13rem 7rem 13rem 7rem
+}
+
+.squares h2 {
+  color: #182b36;
+  font-size: 3rem;
+  font-family: 'macho', sans-serif;
+}
+
+.squares p {
+  color: #182b36;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.squares span {
+  color: #eab100
+}
+
+.puppy {
+  background-image: URL("assets/charles-deluvio-351207.jpg");
+  background-size: cover;
+  background-position: 50% 38%;
+  min-height: 400px;
+}
+
+.bedroom {
+  background-image: URL("assets/rhema-kallianpur-275251.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.features {
+  background-color: #182b36;
+  color: white;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 7rem 5rem 1rem 5rem;
+  font-family: 'macho', sans-serif;
+}
+
+.features span {
+  color:  #eab100
+}
+
+.features p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem 3.5rem 7rem 5rem;
+  text-align: left;
+}
+.fa-cloud {
+  padding: 2rem;
+}
+
+.goodnight {
+  background-image: URL("assets/joanna-kosinska-129039.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 470px;
+  text-align: center;
+}
+
+.goodnight h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding: 13rem 0rem 0rem 0rem;
+
+}
+
+.goodnight h1 {
+  font-family: 'macho', sans-serif;
+  font-size: 6rem;
+  padding: 0rem 0rem 10rem 0rem;
+}
+
+.goodnight span {
+  color: white;
+}
+
+.quote {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.quote h3 {
+  color:#182b36;
+  font-size: 1.4rem;
+  padding: 10rem 2rem 0rem 2rem;
+}
+
+.quote h4 {
+  color: grey;
+  text-align: right;
+  padding: 1rem 2rem 10rem 2rem;
+}
+
+.leftquote {
+  text-align: right;
+  padding-top:9rem;
+  color: grey;
+}
+.rightquote {
+  padding-top:9rem;
+  color: grey;
+}
+
+footer h1 {
+  color: white;
+  font-size: 6rem;
+  font-family: 'macho', sans-serif;
+  line-height:1;
+  padding: 5rem 3rem 1rem 10rem;
+}
+
+footer span {
+  color:  #eab100
+}
+
+footer p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem 20rem 5rem 10rem;
+}
+
+.whole-form {
+  padding: 8rem 10rem 0rem 5rem;
+  display: box;
+  margin: auto;
+}
+
+.entry {
+  border: 1px solid #182b36;
+  display: block;
+  width: 85%;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: white;
+  color: #182b36;
+  padding: 5px;
 }
 
 
-header, footer, section {
-  padding: 5%;
+.form-button {
+  background-color: #eab100;
+  border: 1px solid #182b36;
+  border-radius: 3px;
+  color: white;
+  padding: 3px;
+  font-size: 15px;
+  width: 85%;
+  transition: 1s
+}
+
+.form-button:hover {
+  background-color:  white;
+  border: 1px solid  white;
+  color: #eab100;
+}
+
+input::placeholder {
+  color: grey;
+  transition: 1s
+}
+
+input:hover::-webkit-input-placeholder
+{
+  color: white;
+}
+
+
+textarea {
+  background-color: white
+  border: 1px solid #182b36;
+  border-radius: 8px;
+  color: #663399;
+  font-size: 15px;
+  padding: 3px;
+  min-height: 150px;
+
+}
+
+textarea::placeholder {
+  color: grey;
+  transition: 1s
+}
+
+textarea:hover::-webkit-input-placeholder
+{
+  color:  white;
 }
