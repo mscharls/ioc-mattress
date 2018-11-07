@@ -13,38 +13,52 @@
 
 html {
   font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* .fontone {
-    font-family: 'Montserrat', sans-serif;
-}
 
 .fonttwo {
     font-family: 'macho', sans-serif;
-} */
+}
+
+.fcolorone {
+  color:  #182b36
+  /* blue */
+}
+
+.fcolortwo {
+  color:  #eab100
+  /* yellow */
+}
+
+.fcolorthree {
+  color: white
+}
+
+.fcolorfour {
+  color: grey
+}
 
 header  {
   background-image: URL("assets/gilles-lambert-249996.jpg");
   background-size: cover;
   height: 100vh;
-  color: white;
+  /* color: white; */
 }
 
 header h1 {
   font-size: 8rem;
   text-align: center;
   padding: 15% 10% 0% 10%;
-  font-family: 'macho', sans-serif;
 }
 
 header h3 {
   font-size: 2rem;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
 }
 
 header span {
-  color: #eab100;
+  /* color: #eab100; */
   transition: 2s;
 }
 
@@ -61,19 +75,17 @@ footer {
 }
 
 .squares h2 {
-  color: #182b36;
+  /* color: #182b36; */
   font-size: 3rem;
-  font-family: 'macho', sans-serif;
 }
 
 .squares p {
-  color: #182b36;
+  /* color: #182b36; */
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .squares span {
-  color: #eab100;
+  /* color: #eab100; */
   transition: 2s;
 }
 
@@ -105,11 +117,10 @@ footer {
   font-size: 3.5rem;
   text-align: center;
   padding: 7rem 5rem 1rem 5rem;
-  font-family: 'macho', sans-serif;
 }
 
 .features span {
-  color:  #eab100;
+  /* color:  #eab100; */
   transition: 2s;
 }
 
@@ -118,7 +129,6 @@ footer {
 }
 
 .features p {
-  font-family: 'Montserrat', sans-serif;
   padding: 2rem 3.5rem 7rem 5rem;
   text-align: left;
 }
@@ -132,18 +142,16 @@ footer {
   background-size: cover;
   min-height: 470px;
   text-align: center;
-  color:  #182b36;
+  /* color:  #182b36; */
 }
 
 .goodnight h3 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   padding: 13rem 0rem 0rem 0rem;
 
 }
 
 .goodnight h1 {
-  font-family: 'macho', sans-serif;
   font-size: 6rem;
   padding: 0rem 0rem 10rem 0rem;
 }
@@ -158,7 +166,6 @@ footer {
 }
 
 .quote {
-  font-family: 'Montserrat', sans-serif;
 }
 
 .quote h3 {
@@ -187,7 +194,6 @@ footer {
 footer h1 {
   color: white;
   font-size: 6rem;
-  font-family: 'macho', sans-serif;
   line-height:1;
   padding: 5rem 3rem 1rem 10rem;
 }
@@ -203,7 +209,6 @@ footer span:hover {
 
 footer p {
   color: white;
-  font-family: 'Montserrat', sans-serif;
   padding: 1rem 20rem 5rem 10rem;
 }
 
