@@ -15,6 +15,14 @@ html {
   font-size: 12px;
 }
 
+/* .fontone {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fonttwo {
+    font-family: 'macho', sans-serif;
+} */
+
 header  {
   background-image: URL("assets/gilles-lambert-249996.jpg");
   background-size: cover;
@@ -36,7 +44,12 @@ header h3 {
 }
 
 header span {
-  color: #eab100
+  color: #eab100;
+  transition: 2s;
+}
+
+header span:hover {
+  color: white;
 }
 
 footer {
@@ -60,7 +73,12 @@ footer {
 }
 
 .squares span {
-  color: #eab100
+  color: #eab100;
+  transition: 2s;
+}
+
+.squares span:hover {
+  color:  #182b36
 }
 
 .puppy {
@@ -91,7 +109,12 @@ footer {
 }
 
 .features span {
-  color:  #eab100
+  color:  #eab100;
+  transition: 2s;
+}
+
+.features span:hover {
+  color:  white;
 }
 
 .features p {
@@ -109,6 +132,7 @@ footer {
   background-size: cover;
   min-height: 470px;
   text-align: center;
+  color:  #182b36;
 }
 
 .goodnight h3 {
@@ -126,6 +150,11 @@ footer {
 
 .goodnight span {
   color: white;
+  transition: 2s;
+}
+
+.goodnight span:hover {
+  color:  #182b36;
 }
 
 .quote {
@@ -133,9 +162,10 @@ footer {
 }
 
 .quote h3 {
-  color:#182b36;
+  color: #182b36;
   font-size: 1.4rem;
   padding: 10rem 2rem 0rem 2rem;
+  font-weight: 300;
 }
 
 .quote h4 {
@@ -163,7 +193,12 @@ footer h1 {
 }
 
 footer span {
-  color:  #eab100
+  color:  #eab100;
+  transition: 2s;
+}
+
+footer span:hover {
+  color:  white
 }
 
 footer p {
@@ -173,7 +208,7 @@ footer p {
 }
 
 .whole-form {
-  padding: 8rem 10rem 0rem 5rem;
+  padding: 8rem 10rem 8rem 5rem;
   display: box;
   margin: auto;
 }
@@ -181,7 +216,7 @@ footer p {
 .entry {
   border: 1px solid #182b36;
   display: block;
-  width: 85%;
+  width: 100%;
   border-radius: 3px;
   font-size: 15px;
   background-color: white;
@@ -195,9 +230,9 @@ footer p {
   border: 1px solid #182b36;
   border-radius: 3px;
   color: white;
-  padding: 3px;
+  padding: 5px;
   font-size: 15px;
-  width: 85%;
+  width: 100%;
   transition: 1s
 }
 
